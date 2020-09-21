@@ -359,11 +359,11 @@ shinyServer(
                     arrange(desc(abs(contribution))) %>%
                     group_by(word1) %>%
                     top_n(10, abs(contribution)) %>%
-                    ggplot(aes(drlib::reorder_within(word2, contribution, word1), contribution, fill = contribution > 0)) +
+                    ggplot(aes(tidytext::reorder_within(word2, contribution, word1), contribution, fill = contribution > 0)) +
                     geom_bar(stat = "identity", show.legend = FALSE) +
                     xlab("Words Preceded By Negating Word") +
                     ylab("Sentiment Score x Number of Occurrences") +
-                    drlib::scale_x_reordered() +
+                    tidytext::scale_x_reordered() +
                     facet_wrap(~ word1, scales = "free") +
                     coord_flip()
             })
