@@ -16,40 +16,40 @@ The following are screenshots of each tab/page. If you choose to clone the repos
 
 Allows a user to select the data set of interest and see some quick information about the data set.
 
-![]()
+![](https://github.com/gcon-git/Product_review_analysis/blob/master/img_files/1-Opening_page.png?raw=true)
 
 ## 2. Frequencies tab
 
 Plots of the number of reviews. Users can select the time period of interest (i.e., by year, by month, by day of the month, or by day of the week). This page does not feature the ability to focus on specific years, months, etc.
 
-![]()
+![](https://github.com/gcon-git/Product_review_analysis/blob/master/img_files/2-Frequencies.png?raw=true)
 
 ## 3. Distributions tab
 
 Shows plots of the rating profiles (i.e., 1, 2, 3, etc) based on the user's time period of interest (i.e., by year, by month, by day of the month, or by day of the week). This page does not feature the ability to focus on specific years, months, etc.
 
-![]()
+![](https://github.com/gcon-git/Product_review_analysis/blob/master/img_files/3-Distributions.png?raw=true)
 
 ## 4. Trends tab
 
 Plots the trend changes of review sentiments based on their standard deviations. Users can select the time period of interest (i.e., by year, by month, by day of the month, or by day of the week). This page does not feature the ability to focus on specific years, months, etc.
 
-![]()
+![](https://github.com/gcon-git/Product_review_analysis/blob/master/img_files/4-Trends.png?raw=true)
 
 ## 5. Product Insights tab
 
 Shows the top 15 bigram and trigrams obtained from the user review data. The intent of this page was to gain insight on popular products, brands, and/or features based on product reviews.
 
-![]()
+![](https://github.com/gcon-git/Product_review_analysis/blob/master/img_files/5-Insights.png?raw=true)
 
 ## 6. General Sentiments tab
 
 This page provides insight on overall sentiment of the reviews. It also includes a bigram network plot to gain insight on bigram relationships to better understand the context in which the words were used.
 
-![]()
+![](https://github.com/gcon-git/Product_review_analysis/blob/master/img_files/6-GenSentiments.png?raw=true)
 
 ## 7. Topic Insights tab
 
 Provides a word cloud of the most frequent terms used across all reviews.
 
-![]()
+![](https://github.com/gcon-git/Product_review_analysis/blob/master/img_files/7-WordCloud.png?raw=true)
